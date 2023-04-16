@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Indie+Flower&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family:Verdana, sans-serif;
+}
+
+.topContainer {
+    padding-top: 100px;
+    background-color: #E3FDFD;
+}
+
+h1 {
+    margin: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    margin-top: 0;
+	font-family: 'Golos Text', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.bottomCloud {
+    position: absolute;
+}
+
+.topCloud {
+    position: absolute;
+    right: 850px;
+    top: 50px;
+}
+
+#pro {
+    text-decoration: underline;
+}
+
+#luttoPfp {
+    width: 400px;
+    height: auto;
+    border-radius: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+#codeImage {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+#chessImage {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+p {
+    color: #40514E;
+}
+
+hr {
+    width: 5%;
+    border: 10px dotted;
+    border-style: none none dotted;
+    color: #EAF6F6
+}
+
+.footer-name {
+    color: #EAF6F6;
+}
+
+.bottom-container {
+    margin-top: 85px;
+    background-color: #66BFBF;
+}
+
+.footer-link {
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: #11999E;
+}

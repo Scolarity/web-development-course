@@ -1,0 +1,50 @@
+body {
+    font-size: 20px;
+}
+
+div {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#static {
+    position: static;
+}
+
+#relative {
+    position: relative;
+    left: 20px;
+}
+
+#relativeOverlap {
+    position: relative;
+    top: 20px;
+}
+
+#green {
+    background-color: lime;
+    border: solid 10px;
+}
+
+#redRelative {
+    position: relative;
+    display: inline-block;
+    background-color: red;
+    left: 410px;
+}
+
+#blueRelative {
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+    right: 205px;
+}
+
+#yellowRelative {
+    position: relative;
+    display: inline-block;
+    background-color: yellow;
+    right: 205px;
+}

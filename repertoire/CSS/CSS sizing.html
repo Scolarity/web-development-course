@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Mika's personal site</title>
+    <link rel="stylesheet" href="display.css">
+</head>
+<body>
+    <h1><strong>CSS sizing</strong></h1>
+    <h2><strong>Font sizing:</strong></h2>
+    <p>You can change the font using '<span style="font-family: monospace;">font-size: [preffered font size];</span>'</p>
+    <p>But in your browser, you can change the font size to be medium (default), little, big, ect. But with font-size, the size of the font doesn't change based on the browser settings.</p>
+    <p>To combat this, we can use presentages, every 100% is 16px with the medium font size in most browsers</p>
+    <p>An even better way to do this is by using em's, which is again, 16px.</p>
+    <p>BUT presentages and em's, can be stacked on each other, if you have a body font-size of 2em and an h1 font-size of 5em, the 2em get's applied first, then the 5em stacked on it.</p>
+    <p>To fix that issue, we can use the rem (root em), this makes the em value relative to the root and not to the parents</p>
+</body>
+</html>

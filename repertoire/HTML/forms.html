@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Mika's personal site</title>
+</head>
+<body>
+    <h1>Inputs:</h1>
+    <form>
+        <label>Type your first name:</label> <!-- A piece of text that contains information about the input -->
+        <input type="text"> <!-- Input with type of text -->
+        <br>
+        
+        <input type="color"> <!-- Input with type of color -->
+        <br>
+        
+        <label>Type your password:</label> <!-- Input with type of password -->
+        <input type="password">
+        <br>
+        
+        <label>Remember me?</label>
+        <input type="checkbox"> <!-- Input with type of checkbox -->
+        <br>
+
+        <label>Insert your file here:</label>
+        <input type="file"> <!-- Input with type of file -->
+        <br>
+
+        <label>Insert your desired marriage date here:</label>
+        <input type="date"> <!-- Input with type of date -->
+        <br>
+
+        <label>Just click.</label>
+        <input type="radio"> <!-- Input with type of radio -->
+        <br>
+
+        <label>Your sensitivity:</label>
+        <input type="range"> <!-- Input with type of range -->
+        <br>
+
+        <label>Email verification:</label>
+        <input type="email">
+        
+        <input type="submit" value="Submit"> <!-- Input with type of Submit -->
+    </form>
+
+    <hr>
+        
+        <h1>Textarea:</h1>
+        <textarea name="name" cols="80" rows="8"></textarea>
+
+    <hr>
+    
+    <h1>Form attributes:</h1>
+    <form action="mailto:contact@scolarity.eu" method="post">
+        <h2>Form with action mailto:[yourEmailAddress]:</h2>
+        
+        <label>Your name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <input type="submit">
+
+    </form>
+    <br>
+    <form action="mailto:contact@scolarity.eu" method="post" enctype="text/plain">
+        <h2>Now removing the weird symbols from name=[name typed] in your email client with: enctype:"text/plain"</h2>
+
+        <label>Your name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
